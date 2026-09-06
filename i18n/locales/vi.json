@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "GõViệt — Bộ gõ tiếng Việt cho macOS",
+    "description": "Bộ gõ tiếng Việt cho macOS theo cách Unikey: Telex và VNI, chạy trong mọi ứng dụng, chuyển Anh/Việt bằng phím tắt. Mã nguồn mở."
+  },
+  "nav": {
+    "features": "Tính năng",
+    "install": "Cài đặt",
+    "github": "GitHub",
+    "download": "Tải cho macOS",
+    "downloadShort": "Tải",
+    "menu": "Mở menu",
+    "close": "Đóng menu",
+    "theme": "Đổi giao diện",
+    "lang": "EN"
+  },
+  "hero": {
+    "h1a": "Gõ tiếng Việt trên macOS.",
+    "h1b": "Theo cách bạn đã quen.",
+    "sub": "Telex và VNI, trong mọi ứng dụng. Không cần đổi input source.",
+    "download": "Tải cho macOS",
+    "github": "Xem trên GitHub",
+    "metaOs": "macOS 14+",
+    "metaChip": "Apple Silicon và Intel",
+    "metaOss": "Mã nguồn mở",
+    "winTitle": "Không tiêu đề",
+    "replay": "Phát lại",
+    "a11y": "Minh họa bộ gõ: chuỗi Telex Tooi ddang gox tieengs Vieetj biến thành Tôi đang gõ tiếng Việt, rồi chuyển sang tiếng Anh bằng Control-Shift."
+  },
+  "telex": {
+    "h": "Telex. VNI. Như Unikey.",
+    "p": "Cùng một từ, hai kiểu gõ bạn đã quen trên Windows.",
+    "simple": "Simple Telex",
+    "out": "kết quả"
+  },
+  "english": {
+    "h": "text vẫn là text.",
+    "p": "Từ tiếng Anh không bị biến thành tiếng Việt sai khi bạn gõ xong.",
+    "wrong": "Nếu không khôi phục",
+    "right": "GõViệt giữ nguyên",
+    "typing": "Đang gõ",
+    "a11y": "Minh họa khôi phục tiếng Anh: từ như text, add, request không bị biến thành tiếng Việt sai."
+  },
+  "apps": {
+    "h": "Safari gõ Việt. Terminal gõ Anh.",
+    "p": "GõViệt nhớ chế độ theo từng ứng dụng. Game có thể đưa vào danh sách loại trừ."
+  },
+  "native": {
+    "h": "Một icon trên menu bar.",
+    "p": "Cài đặt native, phím tắt ⌃⇧, khởi động cùng macOS. Không phải input source của hệ thống.",
+    "winTitle": "GõViệt — Cài đặt",
+    "tabGeneral": "Chung",
+    "tabTyping": "Gõ phím",
+    "tabMacros": "Gõ tắt",
+    "tabApps": "Ứng dụng",
+    "tabAbout": "Giới thiệu",
+    "toggleVn": "Bật tiếng Việt",
+    "hotkey": "Phím tắt chuyển Anh–Việt",
+    "remember": "Nhớ chế độ Anh/Việt theo từng ứng dụng",
+    "login": "Khởi động cùng macOS",
+    "menuToggle": "Tiếng Việt (⌃⇧)",
+    "menuSettings": "Cài đặt…",
+    "menuQuit": "Thoát GõViệt"
+  },
+  "more": {
+    "everywhereH": "Gõ ở mọi ứng dụng",
+    "everywhereP": "Safari, Chrome, VS Code, Terminal, Messages, Notes, Slack. Engine can thiệp sự kiện bàn phím toàn hệ thống.",
+    "macroH": "Gõ tắt do bạn đặt",
+    "macroP": "Không giới hạn độ dài, nhập/xuất JSON, giữ hoa/thường theo cách bạn gõ. Không có sẵn cặp viết tắt.",
+    "macroFrom": "hn",
+    "macroTo": "Hà Nội",
+    "secureH": "Biết khi nào nên dừng",
+    "secureP": "Khi macOS bật secure input (ô mật khẩu), GõViệt tạm dừng và hiện khóa trên menu bar."
+  },
+  "engine": {
+    "h": "Rust xử lý chữ. Swift nói chuyện với macOS.",
+    "p": "Engine thuần logic, có kiểm thử. Phần vỏ macOS lo event tap, bơm phím, và nhớ app.",
+    "step1": "Sự kiện bàn phím",
+    "step2": "Engine gõ Rust",
+    "step3": "Tích hợp macOS",
+    "step4": "Ứng dụng đang mở",
+    "cta": "Xem mã trên GitHub",
+    "note": "Rust + Swift · MIT · kiểm thử đơn vị"
+  },
+  "install": {
+    "h": "Cài xong là gõ.",
+    "p": "Bản phát hành hiện ký bằng chứng chỉ Apple Development, chưa notarize. macOS sẽ hỏi thêm một bước.",
+    "s1t": "Tải",
+    "s1d": "Tải file .dmg universal (Apple Silicon và Intel).",
+    "s2t": "Cài",
+    "s2d": "Kéo GõViệt vào thư mục Applications.",
+    "s3t": "Cho phép mở",
+    "s3d": "Mở một lần cho macOS ghi nhận. Vào System Settings → Privacy & Security, bấm Open Anyway. Hoặc chạy xattr -cr /Applications/GoViet.app.",
+    "s4t": "Bật Accessibility",
+    "s4d": "System Settings → Privacy & Security → Accessibility → bật GõViệt. Không cần logout. Icon VI/EN hiện trên menu bar.",
+    "openAnyway": "Open Anyway",
+    "privacy": "Privacy & Security"
+  },
+  "trust": {
+    "h": "Quyền Accessibility, nói thẳng.",
+    "p": "GõViệt cần Accessibility để đọc và sửa sự kiện bàn phím trong ứng dụng khác. Đó là cách một bộ gõ kiểu Unikey hoạt động trên macOS, không phải input source.",
+    "open": "Mã nguồn mở trên GitHub. Bạn có thể đọc engine và phần vỏ macOS.",
+    "local": "Đường gõ chạy trên máy bạn. Không có tài khoản GõViệt.",
+    "noClaim": "Không nhận là không rủi ro. Cấp quyền cho đúng app bạn tin."
+  },
+  "limits": {
+    "h": "Một vài điều nên biết",
+    "p": "Từ tiếng Anh trùng âm tiết Việt hợp lệ có thể bị bỏ dấu, cùng kiểu Unikey: this thành thí, mix thành mĩ. Nhấn ESC để trả lại phím gốc, gõ đúp phím dấu, hoặc chuyển EN. GõViệt nhớ chế độ theo từng app.",
+    "link": "Đọc hạn chế đã biết"
+  },
+  "cta": {
+    "h": "Gõ tiếng Việt trên macOS.",
+    "p": "Tải GõViệt, kéo vào Applications, bắt đầu gõ.",
+    "download": "Tải cho macOS",
+    "source": "Xem mã nguồn"
+  },
+  "footer": {
+    "github": "GitHub",
+    "releases": "Releases",
+    "license": "MIT",
+    "home": "kynguyen.cc"
+  }
+}

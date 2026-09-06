@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "GoViet — Vietnamese input for macOS",
+    "description": "A Vietnamese input method for macOS in the Unikey tradition: Telex and VNI, in every app, with a shortcut to switch English and Vietnamese. Open source."
+  },
+  "nav": {
+    "features": "Features",
+    "install": "Install",
+    "github": "GitHub",
+    "download": "Download for macOS",
+    "downloadShort": "Download",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "theme": "Toggle theme",
+    "lang": "VI"
+  },
+  "hero": {
+    "h1a": "Type Vietnamese on macOS.",
+    "h1b": "The way you already know.",
+    "sub": "Telex and VNI, in every app. No input-source switching.",
+    "download": "Download for macOS",
+    "github": "View on GitHub",
+    "metaOs": "macOS 14+",
+    "metaChip": "Apple Silicon and Intel",
+    "metaOss": "Open source",
+    "winTitle": "Untitled",
+    "replay": "Replay",
+    "a11y": "Demo: the Telex sequence Tooi ddang gox tieengs Vieetj becomes Tôi đang gõ tiếng Việt, then Control-Shift switches to English."
+  },
+  "telex": {
+    "h": "Telex. VNI. Like Unikey.",
+    "p": "The same word, in the two methods you already know from Windows.",
+    "simple": "Simple Telex",
+    "out": "result"
+  },
+  "english": {
+    "h": "text stays text.",
+    "p": "English words are restored when you finish typing, instead of becoming broken Vietnamese.",
+    "wrong": "Without restore",
+    "right": "GoViet keeps",
+    "typing": "Typing",
+    "a11y": "English restore demo: words such as text, add, and request stay English instead of becoming broken Vietnamese."
+  },
+  "apps": {
+    "h": "Safari in Vietnamese. Terminal in English.",
+    "p": "GoViet remembers the language per app. Games can be excluded entirely."
+  },
+  "native": {
+    "h": "A menu bar utility.",
+    "p": "Native settings, ⌃⇧ shortcut, launch at login. Not a system input source.",
+    "winTitle": "GoViet — Settings",
+    "tabGeneral": "General",
+    "tabTyping": "Typing",
+    "tabMacros": "Abbreviations",
+    "tabApps": "Apps",
+    "tabAbout": "About",
+    "toggleVn": "Vietnamese on",
+    "hotkey": "English / Vietnamese shortcut",
+    "remember": "Remember language per application",
+    "login": "Launch at login",
+    "menuToggle": "Vietnamese (⌃⇧)",
+    "menuSettings": "Settings…",
+    "menuQuit": "Quit GoViet"
+  },
+  "more": {
+    "everywhereH": "Works in every app",
+    "everywhereP": "Safari, Chrome, VS Code, Terminal, Messages, Notes, Slack. The engine intercepts keyboard events system-wide.",
+    "macroH": "Abbreviations you define",
+    "macroP": "Unlimited length, JSON import/export, case follows how you typed. No built-in pairs.",
+    "macroFrom": "hn",
+    "macroTo": "Hà Nội",
+    "secureH": "Knows when to stop",
+    "secureP": "When macOS enables secure input (password fields), GoViet pauses and shows a lock in the menu bar."
+  },
+  "engine": {
+    "h": "Rust handles the letters. Swift talks to macOS.",
+    "p": "A pure logic engine with unit tests. The macOS shell owns the event tap, key injection, and per-app memory.",
+    "step1": "Keyboard events",
+    "step2": "Rust typing engine",
+    "step3": "macOS integration",
+    "step4": "The app in front",
+    "cta": "Explore the source on GitHub",
+    "note": "Rust + Swift · MIT · unit tests"
+  },
+  "install": {
+    "h": "Install, then type.",
+    "p": "Current builds are signed with an Apple Development certificate, not notarized. macOS will ask for an extra step.",
+    "s1t": "Download",
+    "s1d": "Get the universal .dmg (Apple Silicon and Intel).",
+    "s2t": "Install",
+    "s2d": "Drag GoViet into Applications.",
+    "s3t": "Allow opening",
+    "s3d": "Open once so macOS records it. Then System Settings → Privacy & Security → Open Anyway. Or run xattr -cr /Applications/GoViet.app.",
+    "s4t": "Turn on Accessibility",
+    "s4d": "System Settings → Privacy & Security → Accessibility → enable GoViet. No logout. VI/EN appears in the menu bar.",
+    "openAnyway": "Open Anyway",
+    "privacy": "Privacy & Security"
+  },
+  "trust": {
+    "h": "Accessibility, plainly.",
+    "p": "GoViet needs Accessibility to read and rewrite keyboard events in other apps. That is how a Unikey-style engine works on macOS, rather than as a system input source.",
+    "open": "The source is on GitHub. You can read the engine and the macOS shell.",
+    "local": "Typing runs on your Mac. There is no GoViet account.",
+    "noClaim": "This is not a claim of zero risk. Grant the permission to software you trust."
+  },
+  "limits": {
+    "h": "A few things to know",
+    "p": "English words that are also valid Vietnamese syllables can pick up tone marks, same as Unikey: this becomes thí, mix becomes mĩ. Press ESC to restore the original keys, double-tap the tone key, or switch to EN. GoViet remembers the mode per app.",
+    "link": "Read known limitations"
+  },
+  "cta": {
+    "h": "Type Vietnamese on macOS.",
+    "p": "Download GoViet, drag it into Applications, start typing.",
+    "download": "Download for macOS",
+    "source": "View source"
+  },
+  "footer": {
+    "github": "GitHub",
+    "releases": "Releases",
+    "license": "MIT",
+    "home": "kynguyen.cc"
+  }
+}
