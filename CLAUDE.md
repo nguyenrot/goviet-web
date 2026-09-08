@@ -10,4 +10,4 @@ npm run build
 npm run typecheck
 ```
 
-Copy is Vietnamese-first (`/` = vi, `/en` = English). Latest DMG comes from `GET /api/release` (GitHub Releases, 10 min cache, fallback to `/releases/latest`). Do not invent features or security claims; the app is not notarized — keep the Open Anyway step visible.
+Copy is Vietnamese-first (`/` = vi, `/en` = English). Latest DMG comes from `GET /api/release` (GitHub Releases, 60s cache, fallback to `/releases/latest`). Do not invent features or security claims; the app is not notarized — keep the Open Anyway step visible.

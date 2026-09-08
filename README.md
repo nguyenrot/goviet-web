@@ -13,4 +13,4 @@ npm run typecheck
 npm run build
 ```
 
-Latest `.dmg` is resolved server-side from GitHub Releases (`GET /api/release`, 10 minute cache). If GitHub is unreachable, download buttons fall back to `/releases/latest`.
+Latest `.dmg` is resolved server-side from GitHub Releases (`GET /api/release`, 60s cache). If GitHub is unreachable, download buttons fall back to `/releases/latest`.

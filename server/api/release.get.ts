@@ -32,5 +32,5 @@ export default defineCachedEventHandler(
       return RELEASE_FALLBACK
     }
   },
-  { maxAge: 600, swr: true, name: 'goviet-release' },
+  { maxAge: 60, swr: true, name: 'goviet-release' },
 )
