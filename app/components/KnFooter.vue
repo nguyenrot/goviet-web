@@ -33,18 +33,15 @@ const props = withDefaults(
 const APPS = [
   { id: 'lattice', name: 'Lattice', url: 'https://lattice.kynguyen.cc' },
   { id: 'cafe', name: 'Cà Phê', url: 'https://cafe.kynguyen.cc' },
-  { id: 'quotes', name: 'Quotes', url: 'https://quotes.kynguyen.cc' },
   { id: 'lumi', name: 'Lumi', url: 'https://lumi.kynguyen.cc' },
   { id: 'tool', name: 'Tools', url: 'https://tool.kynguyen.cc' },
   { id: 'wiki', name: 'Wiki', url: 'https://wiki.kynguyen.cc' },
   { id: 'football', name: 'Football', url: 'https://football.kynguyen.cc' },
-  { id: 'worldcup', name: 'World Cup', url: 'https://worldcup.kynguyen.cc' },
   { id: 'mcp', name: 'MCP', url: 'https://mcp.kynguyen.cc' },
-  { id: 'arena', name: 'Arena', url: 'https://arena.kynguyen.cc' },
   { id: 'gm', name: 'GM', url: 'https://gm.kynguyen.cc' },
   { id: 'citadel', name: 'Citadel', url: 'https://citadel.kynguyen.cc' },
-  { id: 'vandao', name: 'Vấn Đạo', url: 'https://vandao.kynguyen.cc' },
   { id: 'goviet', name: 'GõViệt', url: 'https://goviet.kynguyen.cc' },
+  { id: 'bloomwire', name: 'Bloomwire', url: 'https://bloomwire.kynguyen.cc' },
 ] as const
 
 const COPY: Record<Lang, { tag: string; all: string; aria: string; home: string }> = {
